@@ -13,7 +13,7 @@ function game() {
   }
   function sound() {
     var audio = new Audio();
-    audio.src = '/6a6ad928cfac061.mp3';
+    audio.src = '6a6ad928cfac061.mp3';
     audio.autoplay = true;
  }
 }
