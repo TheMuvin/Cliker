@@ -11,4 +11,9 @@ function game() {
     click_x = click_x + 1;
     tablo.textContent = click_x;
   }
+  function sound() {
+    var audio = new Audio();
+    audio.src = '/6a6ad928cfac061.mp3';
+    audio.autoplay = true;
+ }
 }
