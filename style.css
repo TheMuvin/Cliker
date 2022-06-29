@@ -13,13 +13,12 @@ body{
 .btn{
     user-select: none;
     margin-top: 25% ;
-    display: flex;
-    padding:2%;
+    padding:3%;
     margin-left: auto;
     margin-right: auto;
     white-space: nowrap;
-    width: 210px;
-    height: 210px;
+    width: 250px;
+    height: 250px;
     background: rgb(229, 255, 0);
     align-items: center;
     border-radius: 10px;
@@ -29,6 +28,12 @@ body{
     -moz-transition: all 0.1s;
     -ms-transition: all 0.1s;
     -o-transition: all 0.1s;
+}
+.tablo{
+    display: flex;
+}
+.text{
+    margin-top: 50%;
 }
 .btn:active{
     transition: all 0.1s;
