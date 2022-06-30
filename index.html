@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="maximum-scale=1.0, user-scalable=no">
     <title>Кликер v0.3</title>
 </head>
 
@@ -36,15 +37,17 @@
             </div>
         </div>
     </header>
-    <div class="btn">
-        <div class="conteiner">
-            <div class="tablo">Нажатий: <div><span class="tablo_click" id="tablo_click">0</span></div>
+    <div class="conteiner">
+        <div class="btn">
+            <div class="conteiner">
+                <div class="tablo">Нажатий: <div><span class="tablo_click" id="tablo_click">0</span></div>
+                </div>
+                <div class="upgrade text">
+                    <div>Клики : <span id="Clicker_plus">1/5</span></div>
+                    <div>Баланс-max : <span id="Balans_plus">100</span></div>
+                </div>
+                <div class="limit" id="limit"></div>
             </div>
-            <div class="upgrade text">
-                <div>Клики : <span id="Clicker_plus">1/5</span></div>
-                <div>Баланс-max : <span id="Balans_plus">100</span></div>
-            </div>
-            <div class="limit" id="limit"></div>
         </div>
     </div>
     <script src="script_cliker.js"></script>

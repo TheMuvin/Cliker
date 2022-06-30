@@ -3,6 +3,7 @@
     padding: 0;
     outline: none;
 }
+
 :active{
     transition: all 0.1s;
     -webkit-transition: all 0.1s;
@@ -19,18 +20,17 @@ body{
     user-select: none;
 }
 .conteiner{
-    margin-left: 10%;
-    margin-right: 10%;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .header{
     display: flex;
 }
 .btn{
     user-select: none;
-    margin-top: 25% ;
+    margin: 0 auto;
+    margin-top: 10%;
     padding:3%;
-    margin-left: auto;
-    margin-right: auto;
     white-space: nowrap;
     width: 250px;
     height: 250px;
@@ -116,4 +116,61 @@ header{
 .limit{
     text-align: center;
     color: red;
+}
+
+/*Адаптив*/
+@media (min-width: 324px) and (max-width: 1024px)  {
+    header{
+        height: auto;
+        background: rgb(0, 0, 0);
+    }
+    .upgrade_click{
+        width: 50%;
+        border-right: 2px solid white;
+    }
+    .upgade_balans{
+        width: 50%;
+    }
+    .store{
+        display: none;
+    }
+    .text_upgrade{
+        font-size: 50px;
+        text-align: center;
+    }
+    .header_blocks:active .tab_1{
+        background-color: rgb(0, 255, 55);
+    }
+    .header_blocks:active{
+        background-color: rgb(0, 255, 55);
+    }
+    .header_blocks:active .price{
+        color: rgb(0, 255, 55);
+        transition: all 0.1s;
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        -ms-transition: all 0.1s;
+        -o-transition: all 0.1s;
+    }
+    .btn{
+        padding:5%;
+        white-space: nowrap;
+        width: 500px;
+        height: 500px;
+        background: rgb(51, 43, 129);
+        align-items: center;
+        border-radius: 35px;
+        color: white;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        -ms-border-radius: 35px;
+        -o-border-radius: 35px;
+}
+    .text{
+        font-size: 50px;
+    }
+    .tablo_click{
+        font-size: 55px;
+    }
+
 }
