@@ -3,12 +3,27 @@
     padding: 0;
     outline: none;
 }
+:active{
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
+}
 body{
     width: 100%;
     height: 100%;
     font-size: 45px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(255, 255, 255);
+    user-select: none;
+}
+.conteiner{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.header{
+    display: flex;
 }
 .btn{
     user-select: none;
@@ -30,16 +45,75 @@ body{
     -o-transition: all 0.1s;
 }
 .tablo{
-    display: flex;
+text-align: center;
 }
 .text{
     margin-top: 50%;
+    font-size: 15px;
+    text-align: center;
 }
 .btn:active{
+    background: rgb(83, 136, 83);
+}
+/*header*/
+header{
+    width: 100%;
+    height: auto;
+    background: red;
+}
+/*1блок*/
+.upgrade_click {
+    width: 25%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/*2блок*/
+.upgade_balans{
+    width: 25%;
+    border: 1px solid rgb(0, 0, 0);
+}
+/*3блок*/
+.store{
+    border: 1px solid rgb(0, 0, 0);
+    width: 50%;
+    text-align: center;
+}
+/*общее*/
+.header_blocks:active .tab_1{
+    background-color: white;
+}
+.header_blocks:active{
+    background: white;
+}
+.header_blocks:active .price{
+    color: white;
     transition: all 0.1s;
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     -ms-transition: all 0.1s;
     -o-transition: all 0.1s;
-    background: rgb(83, 136, 83);
+}
+.text_upgrade{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-left: 10px;
+}
+.price{
+    font-family: 'Montserrat', sans-serif;
+    color: aqua;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
+}
+/*табы*/
+.tab_1 {
+    background-color: black;
+    width: 100%;
+    height: 1px;
+}
+.limit{
+    text-align: center;
+    color: red;
 }

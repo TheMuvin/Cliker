@@ -4,14 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>Кликер v0.1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Кликер v0.2.1</title>
 </head>
 
 <body>
-    <div class="btn">
-        <div class="tablo">Нажатий: <div><span id="tablo_click">0</span></div>
+    <header>
+        <div class="conteiner">
+            <div class="header">
+                <div class="upgrade_click header_blocks">
+                    <div class="text_upgrade">
+                        Апгрейд кликов
+                    </div>
+                    <div class="tab_1"></div>
+                    <div class="span_upgrade text_upgrade">
+                        Цена <span class="price">100</span> Кликов
+                    </div>
+                </div>
+                <div class="upgade_balans header_blocks">
+                    <div class="text_upgrade">
+                        Апгрейд баланса
+                    </div>
+                    <div class="tab_1"></div>
+                    <div class="span_upgrade text_upgrade">
+                        Цена <span class="price">100</span> Кликов
+                    </div>
+                </div>
+                <div class="store">
+                    <!-- <span>Магазин</span> -->
+                </div>
+            </div>
         </div>
-        <div class="text">Клики : +<span id="Clicker_plus">1</span></div>
+    </header>
+    <div class="btn">
+        <div class="conteiner">
+            <div class="tablo">Нажатий: <div><span class="tablo_click" id="tablo_click">0</span></div>
+            </div>
+            <div class="text">Клики : +<span id="Clicker_plus">1/5</span></div>
+            <div class="limit" id="limit"></div>
+        </div>
     </div>
     <script src="script_cliker.js"></script>
 </body>
