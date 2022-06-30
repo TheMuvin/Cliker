@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <title>Кликер v0.2.1</title>
+    <title>Кликер v0.3</title>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
                     </div>
                     <div class="tab_1"></div>
                     <div class="span_upgrade text_upgrade">
-                        Цена <span class="price">100</span> Кликов
+                        <Span id="max">Цена <span class="price" id="price_clicker">100</span> Кликов</Span>
                     </div>
                 </div>
                 <div class="upgade_balans header_blocks">
@@ -27,7 +27,7 @@
                     </div>
                     <div class="tab_1"></div>
                     <div class="span_upgrade text_upgrade">
-                        Цена <span class="price">100</span> Кликов
+                        <Span id="max">Цена <span class="price" id="price_balans">100</span> Кликов</Span>
                     </div>
                 </div>
                 <div class="store">
@@ -40,7 +40,10 @@
         <div class="conteiner">
             <div class="tablo">Нажатий: <div><span class="tablo_click" id="tablo_click">0</span></div>
             </div>
-            <div class="text">Клики : +<span id="Clicker_plus">1/5</span></div>
+            <div class="upgrade text">
+                <div>Клики : <span id="Clicker_plus">1/5</span></div>
+                <div>Баланс-max : <span id="Balans_plus">100</span></div>
+            </div>
             <div class="limit" id="limit"></div>
         </div>
     </div>
