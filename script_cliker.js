@@ -136,7 +136,7 @@ function if_limit_1() {
       cliker_plus.textContent = 1 + "/5";
     }
     if (balans >= limit_1) {
-      balans = limit_1;
+      balans == limit_1;
       limit.textContent = "Лимит!";
     }
   }
@@ -147,13 +147,13 @@ function if_limit_1() {
       cliker_plus.textContent = 1 + "/5";
     }
     if (balans >= limit_2) {
-      balans = limit_2;
+      balans == limit_2;
       limit.textContent = "Лимит!";
     }
   }
   if (upgrade_balans == 3) {
     if (balans < limit_3) {
-      balans = balans + 1;
+      balans == balans + 1;
       tablo.textContent = balans;
       cliker_plus.textContent = 1 + "/5";
     }
@@ -164,7 +164,7 @@ function if_limit_1() {
   }
   if (upgrade_balans == 4) {
     if (balans < limit_4) {
-      balans = balans + 1;
+      balans == balans + 1;
       tablo.textContent = balans;
       cliker_plus.textContent = 1 + "/5";
     }
@@ -175,7 +175,7 @@ function if_limit_1() {
   }
   if (upgrade_balans == 5) {
     if (balans < limit_5) {
-      balans = balans + 1;
+      balans == balans + 1;
       tablo.textContent = balans;
       cliker_plus.textContent = 1 + "/5";
     }
@@ -193,7 +193,7 @@ function if_limit_2() {
       cliker_plus.textContent = 2 + "/5";
     }
     if (balans >= limit_1) {
-      balans = limit_1;
+      balans == limit_1;
       limit.textContent = "Лимит!";
     }
   }
@@ -204,7 +204,7 @@ function if_limit_2() {
       cliker_plus.textContent = 2 + "/5";
     }
     if (balans >= limit_2) {
-      balans = limit_2;
+      balans == limit_2;
       limit.textContent = "Лимит!";
     }
   }
@@ -215,7 +215,7 @@ function if_limit_2() {
       cliker_plus.textContent = 2 + "/5";
     }
     if (balans >= limit_3) {
-      balans = limit_3;
+      balans == limit_3;
       limit.textContent = "Лимит!";
     }
   }
@@ -226,7 +226,7 @@ function if_limit_2() {
       cliker_plus.textContent = 2 + "/5";
     }
     if (balans >= limit_4) {
-      balans = limit_4;
+      balans == limit_4;
       limit.textContent = "Лимит!";
     }
   }
@@ -237,7 +237,7 @@ function if_limit_2() {
       cliker_plus.textContent = 2 + "/5";
     }
     if (balans >= limit_5) {
-      balans = limit_5;
+      balans == limit_5;
       limit.textContent = "Лимит!";
     }
   }
@@ -250,7 +250,8 @@ function if_limit_3() {
       cliker_plus.textContent = 3 + "/5";
     }
     if (balans >= limit_1) {
-      balans = limit_1;
+      balans == limit_1;
+      tablo.textContent = balans;
       limit.textContent = "Лимит!";
     }
   }
@@ -261,7 +262,8 @@ function if_limit_3() {
       cliker_plus.textContent = 3 + "/5";
     }
     if (balans >= limit_2) {
-      balans = limit_2;
+      balans == limit_2;
+      tablo.textContent = balans;
       limit.textContent = "Лимит!";
     }
   }
@@ -272,7 +274,8 @@ function if_limit_3() {
       cliker_plus.textContent = 3 + "/5";
     }
     if (balans >= limit_3) {
-      balans = limit_3;
+      balans == limit_3;
+      tablo.textContent = balans;
       limit.textContent = "Лимит!";
     }
   }
@@ -283,7 +286,8 @@ function if_limit_3() {
       cliker_plus.textContent = 3 + "/5";
     }
     if (balans >= limit_4) {
-      balans = limit_4;
+      balans == limit_4;
+      tablo.textContent = balans;
       limit.textContent = "Лимит!";
     }
   }
@@ -294,7 +298,8 @@ function if_limit_3() {
       cliker_plus.textContent = 3 + "/5";
     }
     if (balans >= limit_5) {
-      balans = limit_5;
+      balans == limit_5;
+      tablo.textContent = balans;
       limit.textContent = "Лимит!";
     }
   }
@@ -307,7 +312,8 @@ function if_limit_4() {
       cliker_plus.textContent = 4 + "/5";
     }
     if (balans >= limit_1) {
-      balans = limit_1;
+      balans == limit_1;
+      tablo.textContent = balans;
       limit.textContent = "Лимит!";
     }
   }
@@ -318,7 +324,8 @@ function if_limit_4() {
       cliker_plus.textContent = 4 + "/5";
     }
     if (balans >= limit_2) {
-      balans = limit_2;
+      balans == limit_2;
+      tablo.textContent = balans;
       limit.textContent = "Лимит!";
     }
   }
@@ -329,7 +336,8 @@ function if_limit_4() {
       cliker_plus.textContent = 4 + "/5";
     }
     if (balans >= limit_3) {
-      balans = limit_3;
+      balans == limit_3;
+      tablo.textContent = balans;
       limit.textContent = "Лимит!";
     }
   }
@@ -340,7 +348,8 @@ function if_limit_4() {
       cliker_plus.textContent = 4 + "/5";
     }
     if (balans >= limit_4) {
-      balans = limit_4;
+      balans == limit_4;
+      tablo.textContent = balans;
       limit.textContent = "Лимит!";
     }
   }
@@ -351,7 +360,8 @@ function if_limit_4() {
       cliker_plus.textContent = 4 + "/5";
     }
     if (balans >= limit_5) {
-      balans = limit_5;
+      balans == limit_5;
+      
       limit.textContent = "Лимит!";
     }
   }
@@ -364,7 +374,7 @@ function if_limit_5() {
       cliker_plus.textContent = 5 + "/5";
     }
     if (balans >= limit_1) {
-      balans = limit_1;
+      balans == limit_1;
       limit.textContent = "Лимит!";
     }
   }
@@ -375,7 +385,7 @@ function if_limit_5() {
       cliker_plus.textContent = 5 + "/5";
     }
     if (balans >= limit_2) {
-      balans = limit_2;
+      balans == limit_2;
       limit.textContent = "Лимит!";
     }
   }
@@ -386,7 +396,7 @@ function if_limit_5() {
       cliker_plus.textContent = 5 + "/5";
     }
     if (balans >= limit_3) {
-      balans = limit_3;
+      balans == limit_3;
       limit.textContent = "Лимит!";
     }
   }
@@ -397,7 +407,7 @@ function if_limit_5() {
       cliker_plus.textContent = 5 + "/5";
     }
     if (balans >= limit_4) {
-      balans = limit_4;
+      balans == limit_4;
       limit.textContent = "Лимит!";
     }
   }
@@ -408,7 +418,7 @@ function if_limit_5() {
       cliker_plus.textContent = 5 + "/5";
     }
     if (balans >= limit_5) {
-      balans = limit_5;
+      balans == limit_5;
       limit.textContent = "Лимит!";
     }
   }
