@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/96ff5dc15d.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="maximum-scale=1.0, user-scalable=no">
     <title>Кликер v0.3</title>
 </head>
 
 <body>
-    <header>
-        <div class="conteiner">
+    <header class="Ps_header">
+        <div class="conteiner_header">
             <div class="header">
                 <div class="upgrade_click header_blocks">
                     <div class="text_upgrade">
@@ -34,6 +35,11 @@
                 <div class="store">
                     <!-- <span>Магазин</span> -->
                 </div>
+                <div class="mobile_burger">
+                    <div class="text_mobile">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -52,7 +58,22 @@
             </div>
         </div>
     </div>
+    <div id="menu" class="menu_mobile none">
+        <div class="header_mobile_menu">
+            <div class="mobile_menu">
+                <div class="text_menu">
+                    Магазин
+                </div>
+            </div>
+            <div class="mobile_burger_menu">
+                <div class="text_mobile">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="script_cliker.js"></script>
+    <script src="burger_menu.js"></script>
 </body>
 
 </html>

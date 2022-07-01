@@ -116,7 +116,25 @@ header{
     text-align: center;
     color: red;
 }
+/*mobile_burger*/
+.text_mobile {
+    display: none;
 
+}
+.menu_mobile{
+    background: rgba(0, 0, 0, 0.6) !important;
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    opacity: 1;
+}
+.none{
+    display: none;
+}
 /*Адаптив*/
 @media (min-width: 324px) and (max-width: 1024px)  {
     header{
@@ -124,11 +142,11 @@ header{
         background: rgb(0, 0, 0);
     }
     .upgrade_click{
-        width: 50%;
+        width: 48%;
         border-right: 2px solid white;
     }
     .upgade_balans{
-        width: 50%;
+        width: 48%;
     }
     .store{
         display: none;
@@ -182,6 +200,9 @@ header{
     .limit{
         font-size: 100px;
     }
+    .conteiner_header{
+        max-width: 100%;
+    }
     .conteiner{
         max-width: 100%;
         margin-left: 5%;
@@ -196,4 +217,40 @@ header{
     .btn:active{
         background: rgb(32, 161, 60);
     }
+    .mobile_burger{
+        width: 15%;
+        border-left: 1px solid white ;
+    }
+    .text_mobile {
+        display: block;
+        color: white;
+        font-size: 100px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .text_mobile:active{
+        background-color: rgb(162, 172, 172);
+        transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+    }
+    .header_mobile_menu{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mobile_menu{
+        width: 86%;
+    }
+    .text_menu{
+        color: white;
+        font-size: 100px;
+        text-align: center;
+        background: black;
+    }
+   .mobile_burger_menu{
+        width: 14%;
+   }
 }
