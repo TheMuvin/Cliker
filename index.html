@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://kit.fontawesome.com/96ff5dc15d.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="maximum-scale=1.0, user-scalable=no">
-    <title>Кликер v0.3</title>
+    <title>Кликер v0.4</title>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="store">
-                    <!-- <span>Магазин</span> -->
+                    <span>Магазин</span>
                 </div>
                 <div class="mobile_burger">
                     <div class="text_mobile">
@@ -44,17 +44,22 @@
         </div>
     </header>
     <div class="conteiner">
-        <div class="btn_start">
-            <div class="btn">
-                <div class="conteiner mobile_conteiner">
-                    <div class="tablo">Нажатий<div><span class="tablo_click" id="tablo_click">0</span></div>
+        <div class="flex">
+            <div id="btn" class="btn_start" style="width: 100%;">
+                <div class="btn">
+                    <div class="conteiner mobile_conteiner">
+                        <div class="tablo">Нажатий<div><span class="tablo_click" id="tablo_click">0</span></div>
+                        </div>
+                        <div class="upgrade text">
+                            <div>Клики : <span id="Clicker_plus">1/5</span></div>
+                            <div>Баланс-max : <span id="Balans_plus">100</span></div>
+                        </div>
+                        <div class="limit" id="limit"></div>
                     </div>
-                    <div class="upgrade text">
-                        <div>Клики : <span id="Clicker_plus">1/5</span></div>
-                        <div>Баланс-max : <span id="Balans_plus">100</span></div>
-                    </div>
-                    <div class="limit" id="limit"></div>
                 </div>
+            </div>
+            <div id="store_menu" class="store_menu" style="height: 0vh;">
+
             </div>
         </div>
     </div>
@@ -74,6 +79,7 @@
     </div>
     <script src="script_cliker.js"></script>
     <script src="burger_menu.js"></script>
+    <script src="store_menu_ps.js"></script>
 </body>
 
 </html>
